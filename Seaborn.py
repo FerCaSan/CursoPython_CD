@@ -17,5 +17,5 @@ stats.columns = ['CountryName','ContryCod','BirthRate','InternetUsers','IncomeGr
 #sns.lmplot(x = 'InternetUsers', y = 'BirthRate', data = stats)
 
 #Lineal sin Linea de regresión y graficando IncomGroup, definiendo tamaño puntos
-sns.lmplot(x = 'InternetUsers', y = 'BirthRate', data = stats, fit_reg = False, hue = 'IncomeGroup', scatter ={'s':80})
+sns.lmplot(x = 'InternetUsers', y = 'BirthRate', data = stats, fit_reg = False, hue = 'IncogitmeGroup', scatter ={'s':80})
 plt.show()
